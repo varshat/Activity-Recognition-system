@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+<!--<script>-->
+<!--function loadPicture()-->
+<!--{-->
+<!--    var activity = document.getElementById("prediction").value;-->
+<!--    print(activity)-->
+<!--&lt;!&ndash;    switch(fruits) {&ndash;&gt;-->
+<!--&lt;!&ndash;  case "Banana":&ndash;&gt;-->
+<!--&lt;!&ndash;    text = "Banana is good!";&ndash;&gt;-->
+<!--&lt;!&ndash;    break;&ndash;&gt;-->
+<!--&lt;!&ndash;  case "Orange":&ndash;&gt;-->
+<!--&lt;!&ndash;    text = "I am not a fan of orange.";&ndash;&gt;-->
+<!--&lt;!&ndash;    break;&ndash;&gt;-->
+<!--&lt;!&ndash;  case "Apple":&ndash;&gt;-->
+<!--&lt;!&ndash;    text = "How you like them apples?";&ndash;&gt;-->
+<!--&lt;!&ndash;    break;&ndash;&gt;-->
+<!--&lt;!&ndash;  default:&ndash;&gt;-->
+<!--&lt;!&ndash;    text = "I have never heard of that fruit...";&ndash;&gt;-->
+<!--&lt;!&ndash;}&ndash;&gt;-->
+<!--}-->
+
+<!--    $(document).ready(function() {-->
+<!--&lt;!&ndash;        window.pulse_image = $('.pulse_image');&ndash;&gt;-->
+<!--&lt;!&ndash;        window.pulse_continue_loop = true;&ndash;&gt;-->
+<!--        loadPicture(); // start the loop-->
+<!--    });-->
+
+<!--</script>-->
+</head>
+
+<body>
+<div class="container">
+  <div class="well">
+
+    <h1 style="text-align: center">Activity Recognition system based on Multi sensor data fusion Prediction </h1>
+</div>
+ <div class="well">
+
+ <h2 style="text-align: center">The Recognized Activity is {{prediction}}</h2>
+</div>
+</div>
+</body>
+
+</html>
